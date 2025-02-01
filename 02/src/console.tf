@@ -1,6 +1,5 @@
-##Этот файл для 7 задания!!
+# Этот файл для 7 задания!
 locals {
-
   test_list = ["develop", "staging", "production"]
 
   test_map = {
@@ -15,7 +14,7 @@ locals {
       image = "ubuntu-21-10"
       disks = ["vda", "vdb"]
     },
-    stage = {
+    staging = {  # Исправлено: stage -> staging
       cpu   = 4
       ram   = 8
       image = "ubuntu-20-04"
@@ -29,4 +28,3 @@ locals {
     }
   }
 }
-
