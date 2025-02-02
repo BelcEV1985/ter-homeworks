@@ -14,7 +14,7 @@ locals {
       image = "ubuntu-21-10"
       disks = ["vda", "vdb"]
     },
-    staging = {  # Исправлено: stage -> staging
+    staging = {  
       cpu   = 4
       ram   = 8
       image = "ubuntu-20-04"
