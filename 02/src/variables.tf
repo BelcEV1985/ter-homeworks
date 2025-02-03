@@ -34,7 +34,7 @@ variable "vpc_name" {
 
 variable "vms_ssh_root_key" {
   type        = string
-  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFRiCoQAta5R3Ym7zJYHGPfoBwYchrnD1y+SQThRoznx Yandex_Cloud"
+  default     = "ssh-ed25519 "
   description = "ssh-ed25519"
 }
 
